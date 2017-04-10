@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>181</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="fieldGrowthPolicy">
+     <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+    </property>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_hL">
+      <item>
+       <property name="text">
+        <string>index finger extension</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>extension type</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>inferior pincer</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>large diameter</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>lateral pinch</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>lateral tripod</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>light tool</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>medium wrap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>platform</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>power sphere</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>precision disk</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-index finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-2 finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-3 finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-4 finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tripod</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>writing tripod</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>min-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_hLminx"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>min-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_hLminy"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>max-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_hLmaxx"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>max-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_hLmaxy"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>hand-L</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>311</y>
+     <width>191</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <property name="fieldGrowthPolicy">
+     <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>hand-R</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_hR">
+      <property name="maximumSize">
+       <size>
+        <width>131</width>
+        <height>27</height>
+       </size>
+      </property>
+      <item>
+       <property name="text">
+        <string>index finger extension</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>inferior pincer</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>extension type</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>large diameter</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>lateral pinch</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>lateral tripod</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>light tool</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>medium wrap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>power sphere</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>precision disk</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-index finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-2 finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-3 finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>thumb-4 finger</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tripod</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>writing tripod</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>min-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_hRminx"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>min-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_hRminy"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>max-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_hRmaxx"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>max-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_hRmaxy"/>
+    </item>
+   </layout>
+   <zorder>comboBox_hR</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lineEdit_hRminx</zorder>
+   <zorder>label_7</zorder>
+   <zorder>lineEdit_hRminy</zorder>
+   <zorder>label_8</zorder>
+   <zorder>lineEdit_hRmaxx</zorder>
+   <zorder>label_9</zorder>
+   <zorder>lineEdit_hRmaxy</zorder>
+   <zorder>label_10</zorder>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>223</width>
+     <height>245</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_3">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>object-L</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_oL">
+      <item>
+       <property name="text">
+        <string>biscuit</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bowl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bread</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>broccoli</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>carrot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>celery</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cereal box</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cheese</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bottle cap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cup</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>drink bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>flat bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>food bag</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>fork</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>fork box</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>honey bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>jam bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>knife</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>milk bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>napkin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>olive</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>packed bowl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>pea</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>peanut bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>peperoni</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>plate</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>round bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>spoon</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tomato</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>min-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_oLminx"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>min-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_oLminy"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>max-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_oLmaxx"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>max-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_oLmaxy"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QCheckBox" name="checkBox_oLp">
+      <property name="text">
+       <string>prismatic</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QCheckBox" name="checkBox_oLs">
+      <property name="text">
+       <string>sphere</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QCheckBox" name="checkBox_oLf">
+      <property name="text">
+       <string>flat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QCheckBox" name="checkBox_oLl">
+      <property name="text">
+       <string>large</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="checkBox_oLr">
+      <property name="text">
+       <string>rigid</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>260</y>
+     <width>216</width>
+     <height>245</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_4">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>object-R</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>min-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_oRminx"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>min-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_oRminy"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>max-x</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_oRmaxx"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_20">
+      <property name="text">
+       <string>max-y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_oRmaxy"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QCheckBox" name="checkBox_oRp">
+      <property name="text">
+       <string>prismatic</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QCheckBox" name="checkBox_oRs">
+      <property name="text">
+       <string>sphere</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QCheckBox" name="checkBox_oRf">
+      <property name="text">
+       <string>flat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QCheckBox" name="checkBox_oRl">
+      <property name="text">
+       <string>large</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_oR">
+      <item>
+       <property name="text">
+        <string>biscuit</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bowl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bottle cap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>bread</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>broccoli</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>carrot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>celery</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cereal box</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cheese</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>cup</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>drink bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>flat bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>food bag</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>fork</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>fork box</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>knife</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>milk bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>napkin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>olive</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>packed bowl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>pea</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>peperoni</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>plate</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>round bottle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>spoon</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>tomato</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="checkBox_oRr">
+      <property name="text">
+       <string>rigid</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>400</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_21">
+      <property name="text">
+       <string>active:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_hL">
+      <property name="text">
+       <string>hand-L</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_hR">
+      <property name="text">
+       <string>hand-R</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_oL">
+      <property name="text">
+       <string>object-L</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_oR">
+      <property name="text">
+       <string>object-R</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_image">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>selected region</string>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>490</y>
+     <width>176</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>490</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
